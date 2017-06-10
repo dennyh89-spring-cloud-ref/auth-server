@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AuthServerApplication {
 //Test-1
 //Test2
+//test 3
 	@RequestMapping("/user")
 	public Principal user(Principal user) {
 		return user;
