@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class AuthServerApplication {
 //Test-1
+//Test2
 	@RequestMapping("/user")
 	public Principal user(Principal user) {
 		return user;
